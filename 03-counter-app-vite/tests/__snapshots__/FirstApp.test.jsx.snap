@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en <FristApp /> debe de hacer match von el snapshot 1`] = `
+<div>
+  <h1>
+     
+    Hola, Soy Goku
+     
+  </h1>
+  <p>
+     
+    No hay subtitulo
+     
+  </p>
+  <p>
+     
+    Analia Zunino
+     
+  </p>
+</div>
+`;
