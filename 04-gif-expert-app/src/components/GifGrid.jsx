@@ -4,7 +4,6 @@ import useFetchGifs from '../hooks/useFetchGifs'
 const GifGrid = ({ category }) => {
 
     const {images, isLoading} = useFetchGifs(category);
-
   return (
     <>
         <h3>{category}</h3>
@@ -16,7 +15,7 @@ const GifGrid = ({ category }) => {
             {
                 images.map( ( image ) => (
                     <GifItem 
-                    key={ image.id }
+                    key={ image.id.id }
                     { ...image }
                     />
                 ))
