@@ -5,13 +5,13 @@ import ReactDOM from 'react-dom/client';
 //import CounterWhitCustomHook from "./01-useState/CounterWhitCustomHook";
 
 import './index.css';
-import { SimpleForm } from './02-useEffect/SimpleForm';
-
+//import { SimpleForm } from './02-useEffect/SimpleForm';
+import {FormWithCustomeHook} from './02-useEffect/FormWithCustomeHook'
 
 
 
 ReactDOM.createRoot(document.getElementById('root') ).render(
   <React.StrictMode>
-    <SimpleForm />
+    <FormWithCustomeHook />
   </React.StrictMode>,
 )
