@@ -30,7 +30,7 @@ export const TodoAdd = ({ onNewTodo }) => {
                 className="form-control"
                 name="description"
                 value={ description }
-                onChange={ onInputChange }
+                onChange={ ( e ) => onInputChange(e.target) }
             />
 
             <button 
